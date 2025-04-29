@@ -1,0 +1,131 @@
+<root>
+    <topology>
+        <nodes>
+            <node id = "14">
+                <category name="Camera"/>
+                <power ability="1"/>
+            </node>
+            <node id = "12">
+                <category name="Camera"/>
+                <power ability="3"/>
+            </node>
+            <node id = "13">
+                <category name="Camera"/>
+                <power ability="3"/>
+            </node>
+            <node id = '1'>
+                <category name="Switch"/>
+                <power ability="3"/>
+            </node>
+            <node id = '2'>
+                <category name="Switch"/>
+                <power ability="3"/>
+            </node>
+            <node id = '3'>
+                <category name="Switch"/>
+                <power ability="1"/>
+            </node>
+            <node id = '4'>
+                <category name="Switch"/>
+                <power ability="1"/>
+            </node>
+            <node id = '5'>
+                <category name="Switch"/>
+                <power ability="1"/>
+            </node>
+            <node id = '6'>
+                <category name="Switch"/>
+                <power ability="1"/>
+            </node>
+            <node id = '7'>
+                <category name="Switch"/>
+                <power ability="1"/>
+            </node>
+            <node id = '8'>
+                <category name="Switch"/>
+                <power ability="1"/>
+            </node>
+            <node id = '9'>
+                <category name="Switch"/>
+                <power ability="1"/>
+            </node>
+            <node id = '10'>
+                <category name="DataCenter"/>
+                <power ability="1"/>
+            </node>
+            <node id = '11'>
+                <category name="DataCenter"/>
+                <power ability="1"/>
+            </node>
+            <node id = '15'>
+                <category name="DataCenter"/>
+                <power ability="1"/>
+            </node>
+        </nodes>
+        <links>
+            <link id = "14-3">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "12-1">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "13-2">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "3-4">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "1-4">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "1-5">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "1-7">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "2-4">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "2-5">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "2-7">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "4-15">
+                <loss rate="0.8"/>
+            </link>
+            <link id = "4-6">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "5-6">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "5-9">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "7-8">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "8-9">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "6-15">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "6-11">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "9-10">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "10-11">
+                <loss rate="0.05"/>
+            </link>
+            <link id = "11-15">
+                <loss rate="0.05"/>
+            </link>
+        </links>
+    </topology>
+</root>
