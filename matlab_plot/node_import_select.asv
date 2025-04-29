@@ -1,0 +1,23 @@
+clc,clear
+clear all
+crt = pwd;
+addpath(genpath(crt));    % 添加当前的文件夹
+
+
+% 读取相对路径下的数据文件
+filepath = '../result/data/node_import_5_data.mat';
+node_import_data = load(filepath);   % 节点重要性的数据包括四个变量，迭代周期，累计决策量，探索发生的周期，探索发生累计决策量
+
+num_list = node_import_data.node_import_num_list_5;    % 迭代周期
+acc_decision_list  = node_import_data.acc_decision_list;   % 累计决策量
+explor_episode = node_import_data.explor_episode_5;  % 探索发生的周期
+acc_epis = node_import_data.acc_decision_list; % 探索发生累计决策量
+
+plot(num_list,acc_decision_list)
+hold on 
+plot(explor_episode ,acc_decision_list)
+
+
+
+
+
